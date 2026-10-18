@@ -5,15 +5,17 @@ end_odometer = int(input("What was the ending odometer?: "))
 total_gallons = float(input("How many gallons of gas were used? "))
 total_days = float(input("How many days did the trip take?: "))
 
+print("                            ")
 print("__--__--__--__--__--__--__--")
 print("ROAD TRIP SUMMARY: " + final_destination)
 print("__--__--__--__--__--__--__--")
+print("                            ")
 
 # this segment calculates and gives a summary of the road trip
 total_distance = end_odometer - start_odometer
 print("TOTAL DISTANCE: " + str(total_distance) + " miles")
-gas_efficency = total_distance / total_gallons
-print("GAS EFFICENCY: " + str(gas_efficency) + " MPG")
+gas_efficiency = total_distance / total_gallons
+print("GAS EFFICIENCY: " + str(gas_efficiency) + " MPG")
 average_pace = total_distance / total_days
 print("AVERAGE PACE: " + str(average_pace) + " miles per day")
 
