@@ -12,11 +12,11 @@ print("__--__--__--__--__--__--__--")
 print("                            ")
 
 # this segment calculates and gives a summary of the road trip
-total_distance = end_odometer - start_odometer
+compute_total_distance = end_odometer - start_odometer
 print("TOTAL DISTANCE: " + str(total_distance) + " miles")
-gas_efficiency = total_distance / total_gallons
+computer_gas_efficiency = total_distance / total_gallons
 print("GAS EFFICIENCY: " + str(gas_efficiency) + " MPG")
-average_pace = total_distance / total_days
+computer_mpg = total_distance / total_days
 print("AVERAGE PACE: " + str(average_pace) + " miles per day")
 
 print("        _______")
